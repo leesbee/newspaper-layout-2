@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Paper Style Layout</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!--fontawesome 4-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+  />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  
+</head>
+<body>
+    <header id="main_header">
+        <img src="images/barcode.svg" alt="바코드" class="barcode">
+        <div class="header_group">
+            <p class="sub-title">IWEBDY TIMES</p>
+            <h1>WEB DESIGN NEWS</h1>
+            <p class="copy">dongbang 2f, seogyodong 330-28, mapogu, seoul korea / copyright&copy;; 2001~2021 iwebody all right reserved</p>
+        </div>
+        <div class="time fw500">
+            <p class="day">MONDAY</p>
+            <p class="date fw900">20210621</p>
+        </div>
+    </header> 
+    <nav id="gnb">
+        <ul>
+            <li><a href="#">webdy report</a></li>
+            <li><a href="#">a create website</a></li>
+            <li><a href="#">good design trand</a></li>
+            <li><a href="#">webdesign trand</a></li>
+            <li><a href="#">webdy academy</a></li>
+        </ul>
+    </nav>   
+    <!--title 주제 이미지 : gif animation 이미지-->
+    <section id="contents">
+        <article>
+            <h2>MOVIE<br>WEBSITE<br>TRAND</h2>
+            <p>가는 설레는 이상의 찬미를 인간의 반짝이는 사는가 것이다. 낙원을 아름답고 천지는 꾸며 능히 살았으며, 뜨고, 풀밭에 뿐이다. 같지 반짝이는 광야에서 때문이다. 수 사랑의 풀이 생명을 것이다. 내는 이상의 밥을 용감하고 반짝이는 인도하겠다는 있으랴?</p>
+            <p>시들어 청춘의 구하지 아름답고 하였으며, 찬미를 인생에 것이다. 청춘에서만 불어 얼음 것이다. 가장 위하여, 타오르고 끓는 관현악이며, 작고 공자는 방황하였으며, 이 것이다. 같이, 그들은 없으면, 얼음 청춘의 것이다. 이것이야말로 목숨을 찾아 동산에는 사막이다. 것은 불어 끓는 너의 유소년에게서 황금시대를 무엇을 미인을 꽃 때문이다. 바이며, 이는 없으면, 이것을 듣는다.<a href="#" class="more_btn">more<span class="arrow">▶</span></a></p>      
+            
+            <div class="banner1">
+                <a href="#">
+                    <img src="images/job.gif" alt="banner1">
+                </a>
+            </div>      
+        </article>
+        <article>
+            <img src="images/web.gif" alt="타이틀기사이미지">
+            <h2>interactive media <span>의 세계</span></h2>
+            <p>가는 설레는 이상의 찬미를 인간의 반짝이는 사는가 것이다. 낙원을 아름답고 천지는 꾸며 능히 살았으며, 뜨고, 풀밭에 뿐이다. 같지 반짝이는 광야에서 때문이다.</p> 
+            <p>수 사랑의 풀이 생명을 것이다. 내는 이상의 밥을 용감하고 반짝이는 인도하겠다는 있으랴?</p>
+            <p>시들어 청춘의 구하지 아름답고 하였으며, 찬미를 인생에 것이다. 청춘에서만 불어 얼음 것이다. 가장 위하여, 타오르고 끓는 관현악이며, 작고 공자는 방황하였으며, 이 것이다. 같이, 그들은 없으면, 얼음 청춘의 것이다.</p>
+                
+            <p>이것이야말로 목숨을 찾아 동산에는 사막이다. 것은 불어 끓는 너의 유소년에게서 황금시대를 무엇을 미인을 꽃 때문이다. 바이며, 이는 없으면, 이것을 듣는다.<a href="#" class="more_btn">more<span class="arrow">▶</span></a></p>
+            
+        </article>    
+        <article id="sidebar">
+            <figure>
+              <a class="siteLink" href="#" target="_blank">
+                <h3>GOOD DESIGN SITE</h3>
+                <img src="images/img2.jpg" alt="site">
+                <hr>
+                <figcaption><span class="url">https://www.behance.net/
+                </span><br>
+                <span class="home_title">SWAB THE WORLD</span></figcaption>
+              </a>
+              <a href="#" class="left-btn" onclick="prevSiteInfo();"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+              <a href="#" class="right-btn" onclick="nextSiteInfo();"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            </figure>
+            <div class="today">
+              <a href="#">
+                <h4><span class="fw400">오늘의</span>추천명함</h4>
+                <img src="images/people.jpg" alt="프리랜서 스타일리스트 이슬비">
+                <div class="info">
+                  <p class="fw500 name">프리랜서 스타일리스트<span>이슬비</span></p>
+                  <p class="email">leesbee@naver.com</p>
+                </div>                
+              </a>
+            </div>
+            <div class="notice">
+                <h4><span class="fw400">오늘의</span> 세미나</h4>
+                <ul>
+                    <li><a href="#">웹디자이너를 위한 실전 CSS</a></li>
+                    <li><a href="#">웹크리에이티브 디렉터 세미나</a></li>
+                    <li><a href="#">파워 프리젠테이션 스킬업 워크샵</a></li>
+                    <li><a href="#">차세대 데이터센터 구현을 위한 온라인 세미나</a></li>
+                    <li><a href="#">비즈니스 글쓰기 전략 워크샵</a></li>
+                </ul>
+                <div class="banner2">
+                    <a href="#">
+                        <img src="images/ux.gif" alt="banner1">
+                    </a>
+                </div>
+            </div>
+        </article>          
+    </section>
+    
+    <script src="main.js"></script>
+</body>
+</html>
